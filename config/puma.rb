@@ -4,8 +4,8 @@ daemonize true
 threads 8,32
 workers 3
 
-deploy_to = '[deploy_dir]'
-shared_path = '[shared_folder]'
+deploy_to = '/var/www/xuanshun'
+shared_path = '/shared'
 bind       "unix://#{deploy_to}/#{shared_path}/tmp/sockets/puma.sock"
 state_path        "#{deploy_to}/#{shared_path}/tmp/sockets/puma.state"
 pidfile           "#{deploy_to}/#{shared_path}/tmp/pids/puma.pid"
