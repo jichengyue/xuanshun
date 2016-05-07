@@ -1,14 +1,14 @@
 environment "production"
 
-daemonize false
+daemonize true
 threads 8,32
 workers 3
-deploy_to='/var/www/xuanshun'
-shared_path="#{deploy_to}/shared"
 
-state_path "#{shared_path}/tmp/sockets/puma.state"
-pidfile "#{shared_path}/tmp/pids/puma.pid"
-bind "unix://#{shared_path}/sockets/puma.sock"
+deploy_to = '[deploy_dir]'
+shared_path = '[shared_folder]'
+bind       "unix://#{deploy_to}/#{shared_path}/tmp/sockets/puma.sock"
+state_path        "#{deploy_to}/#{shared_path}/tmp/sockets/puma.state"
+pidfile           "#{deploy_to}/#{shared_path}/tmp/pids/puma.pid"
 preload_app!
 activate_control_app
 
