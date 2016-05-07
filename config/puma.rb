@@ -1,6 +1,6 @@
 environment "production"
 
-daemonize false
+daemonize true
 threads 8,32
 workers 3
 
