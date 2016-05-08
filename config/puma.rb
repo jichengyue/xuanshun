@@ -1,4 +1,4 @@
-environment "development"
+environment "production"
 
 daemonize true
 threads 8,32
