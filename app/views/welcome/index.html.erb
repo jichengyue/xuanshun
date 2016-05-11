@@ -1,174 +1,156 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
-		<title>宣顺化工贸易有限公司</title>
-		<meta name="keywords" content="宣顺化工"/>
-		<meta name="description" content=""/>
-	</head>
-	<body>
-		<!-- bootstrap 布局 -->
-		<div class="page-header">
-			<h1 class="text-center">宣城市宣顺化工贸易有限公司</h1>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<ul class="nav nav-pills">
-						<li class="active">
-							<a href="#">首页</a>
-						</li>
-						<li>
-							<a href="#">公司简介</a>
-						</li>
-						<li>
-							<a href="#">最新资讯</a>
-						</li>
-						<li>
-							<a href="#">产品展示</a>
-						</li>
-						<li>
-							<a href="#">公司资质</a>
-						</li>
-						<li>
-							<a href="#">联系我们</a>
-						</li>
+<!-- bootstrap 布局 -->
+<%= render "shared/header" %>
+<%= render "shared/nav"  %>
 
-						<!-- <li class="disabled">
-											<a href="#">Messages</a>
-									</li>
-									<li class="dropdown pull-right">
-											<a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
-											<ul class="dropdown-menu">
-													<li>
-															<a href="#">Action</a>
-													</li>
-													<li>
-															<a href="#">Another action</a>
-													</li>
-													<li>
-															<a href="#">Something else here</a>
-													</li>
-													<li class="divider">
-													</li>
-													<li>
-															<a href="#">Separated link</a>
-													</li>
-											</ul>
-									</li> -->
-					</ul>
-					<div class="carousel slide" id="carousel-962183">
-						<ol class="carousel-indicators">
-							<li data-slide-to="0" data-target="#carousel-962183"></li>
-							<li data-slide-to="1" data-target="#carousel-962183"></li>
-							<li data-slide-to="2" data-target="#carousel-962183" class="active"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="item">
-								<!-- <img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg"> -->
-								<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
-								<div class="carousel-caption">
-									<h4>
-										First Thumbnail label
-									</h4>
-									<p>
-										Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-									</p>
-								</div>
-							</div>
-							<div class="item">
-								<!-- <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg"> -->
-								<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
-								<div class="carousel-caption">
-									<h4>
-										Second Thumbnail label
-									</h4>
-									<p>
-										Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-									</p>
-								</div>
-							</div>
-							<div class="item active">
-								<!-- <img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg"> -->
-								<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
-								<div class="carousel-caption">
-									<h4>
-										Third Thumbnail label
-									</h4>
-									<p>
-										Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-									</p>
-								</div>
-							</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+
+			<div class="carousel slide" id="carousel-962183">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-962183"></li>
+					<li data-slide-to="1" data-target="#carousel-962183"></li>
+					<li data-slide-to="2" data-target="#carousel-962183" class="active"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item">
+						<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
+						<div class="carousel-caption">
+							<h4>
+								公司概况
+							</h4>
+							<p>
+								宣城市宣顺化工贸易有限公司位于安徽省宣城市区鳌峰办事处绿锦村绿锦铺，注册资金为10万人民币。
+							</p>
+							<p>经营范围包括：H20-化学危险品经营油漆及稀释剂。
+							</p>
+
 						</div>
-						<a class="left carousel-control" href="#carousel-962183" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left"></span>
-						</a>
-						<a class="right carousel-control" href="#carousel-962183" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
 					</div>
-					<dl>
-						<dt>
-							Description lists
-						</dt>
-						<dd>
-							A description list is perfect for defining terms.
-						</dd>
-						<dt>
-							Euismod
-						</dt>
-						<dd>
-							Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-						</dd>
-						<dd>
-							Donec id elit non mi porta gravida at eget metus.
-						</dd>
-						<dt>
-							Malesuada porta
-						</dt>
-						<dd>
-							Etiam porta sem malesuada magna mollis euismod.
-						</dd>
-						<dt>
-							Felis euismod semper eget lacinia
-						</dt>
-						<dd>
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-						</dd>
-					</dl>
+					<div class="item">
+						<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
+						<div class="carousel-caption">
+							<h4>
+								Second Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
+					<div class="item active">
+						<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
+						<div class="carousel-caption">
+							<h4>
+								Third Thumbnail label
+							</h4>
+							<p>
+								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							</p>
+						</div>
+					</div>
 				</div>
+				<a class="left carousel-control" href="#carousel-962183" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-962183" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
 			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-				</div>
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-				</div>
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
 
-					<address>
-						<strong>Twitter, Inc.</strong><br>
-						795 Folsom Ave, Suite 600<br>
-						San Francisco, CA 94107<br>
-						<abbr title="Phone">P:</abbr>
-						(123) 456-7890
-					</address>
-					<div>
-						<p>
-							<a href="#" title="人才中心">人才中心</a>|<a href="#" title="联系我们">联系我们</a>|<a href="#" title="网站导航">网站导航</a>|<a href="#" title="法律声明">法律声明</a>
-						</p>
-						Copyright 2016-2017 宣顺化工贸易有限公司 版权所有 京ICP备15058296号<br/>地址:宣城市宣州区绿锦村鳌峰办事处 电话:15956288386 传真:021-999999999 邮编:200051&nbsp;技术支持：岳太科<br/>
-					</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">公司概况</h3>
+				</div>
+				<div class="panel-body">
+					宣城市宣顺化工贸易有限公司位于安徽省宣城市区鳌峰办事处绿锦村绿锦铺，注册资金为10万人民币。经营范围包括：油漆及稀释剂。 宣城市宣顺化工贸易有限公司于2011年5月23日在宣城工商局登记注册，我公司的办公地址位于人文荟萃， 自古便有“南宣北合”一说的宣城市， 宣城市区鳌峰办事处绿锦村绿锦铺，我们有最好的产品和专业的销售和技术团队，在公司发展壮大的5年里， 我们为客户提供最好的产品、良好的技术支持、 健全的售后服务，宣城市宣顺化工贸易有限公司是宣城化工行业知名企业，如果您对我公司的产品服务有兴趣，
+					请在线留言或者来电咨询。
 				</div>
 			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">公司位置</h3>
+				</div>
+				<div class="panel-body">
+					<!-- 以下是详细地图，地图上的红点为本公司在本市的位置 -->
+					<div style="width:700px;height:290px;border:1px solid gray" id="container"></div>
+					<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+					<script type="text/javascript">
+							var opts = {
+									width: 250,     // 信息窗口宽度
+									height: 50,     // 信息窗口高度
+									title: "宣城市宣顺化工贸易有限公司"  // 信息窗口标题
+							}
+							//var infoWindow = new BMap.InfoWindow('深圳福田区福民路36号', opts);  // 创建信息窗口对象
+							var infoWindow = new BMap.InfoWindow('宣城市区鳌峰办事处绿锦村绿锦铺', opts);  // 创建信息窗口对象
+
+							var map = new BMap.Map("container");
+							var point = new BMap.Point(107.759131, 34.508242);
+							map.centerAndZoom(point, 5);
+							getpoint('宣城市区鳌峰办事处绿锦村绿锦铺', '');
+
+							map.enableScrollWheelZoom();                  //启用滚轮放大缩小。
+							map.enableDoubleClickZoom();				  //启用双击放大。
+							map.addControl(new BMap.NavigationControl());
+							function getpoint(addr, area) {
+									var myGeo = new BMap.Geocoder();
+									// 将地址解析结果显示在地图上，并调整地图视野
+									myGeo.getPoint(addr, function (point) {
+											if (point) {
+													map.centerAndZoom(point, 15);
+													var marker = new BMap.Marker(point);        // 创建标注
+													map.clearOverlays();
+													map.addOverlay(marker);
+													marker.openInfoWindow(infoWindow);      // 打开信息窗口
+													marker.addEventListener("dragend", function (e) {
+															this.openInfoWindow(infoWindow);
+															infoWindow.redraw();
+													})
+													marker.addEventListener("click", function (e) {
+															this.openInfoWindow(infoWindow);
+															infoWindow.redraw();
+													})
+											} else {
+													getpoint(area, area);
+											}
+									}, area);
+							}
+							function showinfo(zb) {
+									var mapobj = mapArray[zb];
+									var point = new BMap.Point(mapobj.x, mapobj.y);
+									map.centerAndZoom(point, 14);
+									var infoWindow = new BMap.InfoWindow(mapobj.newstext, opts);  // 创建信息窗口对象
+									var marker = new BMap.Marker(point);        // 创建标注
+									map.clearOverlays();
+									map.addOverlay(marker);
+									marker.openInfoWindow(infoWindow);      // 打开信息窗口
+									marker.addEventListener("dragend", function (e) {
+											this.openInfoWindow(infoWindow);
+											infoWindow.redraw();
+									})
+									marker.addEventListener("click", function (e) {
+											this.openInfoWindow(infoWindow);
+											infoWindow.redraw();
+									})
+							}
+					</script>
+				</div>
+			</div>
+
 		</div>
-	</body>
-</html>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4">
+		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
+	</div>
+	<div class="col-md-4">
+		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
+	</div>
+	<div class="col-md-4">
+		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
+	</div>
+</div>
+</div>
+<%= render "shared/footer"  %>

@@ -1,7 +1,7 @@
 RailsAdmin.config do |config|
 
   ### Popular gems integration
-
+  config.main_app_name = ["宣顺化工贸易有限公司", "信息发布系统"]
   ## == Devise ==
   config.authenticate_with do
     warden.authenticate! scope: :user

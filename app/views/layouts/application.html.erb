@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Xuanshun</title>
+        <title>宣顺化工</title>
+        <meta name="keywords" content="宣城,宣顺化工,化工,化工贸易"/>
+        <meta name="description" content=""/>
+        <meta charset="UTF-8">
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
         <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
         <%= csrf_meta_tags %>
     </head>
     <body>
-      <% if notice!=nil %>
-        <div class="alert alert-info"><%= notice %></div>
-      <% end %>
-      <% if alert!=nil %>
-        <div class="alert alert-warning"><%= alert %></div>
-      <% end %>
-      <%= yield %>
-
+        <% if notice!=nil %>
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <%= notice %></div>
+        <% end %>
+        <% if alert!=nil %>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <%= alert %></div>
+        <% end %>
+        <%= yield %>
     </body>
 </html>
