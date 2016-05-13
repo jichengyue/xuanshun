@@ -215,13 +215,8 @@ zh-CN:
   activerecord:
     models:
       user: "用户"
-      role: "角色"
-      orgnization: "工作组"
-      permission: "权限"
-      post: "新闻"
-      version: "操作记录"
       article: "新闻资讯"
-      rails_admin_settings/setting: "系统配置"
+      product: "产品管理"
     attributes:
       routine:
         id: "工单编号"
@@ -249,29 +244,6 @@ zh-CN:
         current_sign_in_at: "最后登录时间"
         created_at: "创建于"
         updated_at: "更新于"
-      orgnization:
-        id: "编号"
-        name: "工作组名称"
-        description: "工作组描述信息"
-        users: "工作组成员"
-        orgnization: "父级组织"
-        created_at: "创建于"
-        updated_at: "更新于"
-      role:
-        name: "角色名称"
-        id: "编号"
-        users: "所有用户"
-        permissions: "所属权限"
-        created_at: "创建于"
-        updated_at: "更新于"
-      permission:
-        id: "编号"
-        action: "操作"
-        subject: "对象"
-        description: "权限描述"
-        roles: "应用的角色"
-        created_at: "创建于"
-        updated_at: "更新于"
       article:
         id: "编号"
         title: "标题"
@@ -280,12 +252,15 @@ zh-CN:
         user: "作者"
         created_at: "创建时间"
         updated_at: "更新时间"
-      rails_admin_settings/setting:
-        enabled: "激活"
-        kind: "参数类型"
-        ns: "命名空间"
-        name: "参数名称"
-        raw: "参数"
+      product:
+        id: "编号"
+        name: "名称"
+        category: "类别"
+        description: "描述"
+        price: "价格"
+        picture: "产品图片"
+        created_at: "创建时间"
+        updated_at: "更新时间"
   admin:
     state_machine:
       no_event: "等待..."

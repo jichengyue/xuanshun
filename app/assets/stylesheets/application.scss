@@ -14,6 +14,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 
 .nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
@@ -103,4 +104,937 @@
 .btn-custom:hover,
 .btn-custom:focus {
     color: #fff;
+}
+
+
+.modul-services-one{
+  text-align:center;
+}
+
+/* Modul One Icon Setting */
+
+.mso-icon-space {
+    margin-bottom: 23px;
+}
+.mso-icon:hover h1,
+.mso-icon:hover h2,
+.mso-icon:hover h3,
+.mso-icon:hover h4,
+.mso-icon:hover h5,
+.mso-icon:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #179ce3;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon:hover .hi-icon:before {
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.mso-icon .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Two Icon Setting */
+
+.mso-icon-two-space {
+    margin-bottom: 23px;
+}
+.mso-icon-two:hover h1,
+.mso-icon-two:hover h2,
+.mso-icon-two:hover h3,
+.mso-icon-two:hover h4,
+.mso-icon-two:hover h5,
+.mso-icon-two:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-two .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-two .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-two .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-two:hover .hi-icon:before {
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.mso-icon-two .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-two .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-two:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-two:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Three Icon Setting */
+
+.mso-icon-three-space {
+    margin-bottom: 43px;
+}
+.mso-icon-three:hover h1,
+.mso-icon-three:hover h2,
+.mso-icon-three:hover h3,
+.mso-icon-three:hover h4,
+.mso-icon-three:hover h5,
+.mso-icon-three:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-three .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-three .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-three .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-three:hover .hi-icon:before {
+    -webkit-animation: toRightFromLeft 0.4s forwards;
+    -moz-animation: toRightFromLeft 0.4s forwards;
+    animation: toRightFromLeft 0.4s forwards;
+}
+.mso-icon-three .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-three .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-three:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-three:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Four Icon Setting */
+
+.mso-icon-four-space {
+    margin-bottom: 43px;
+}
+.mso-icon-four:hover h1,
+.mso-icon-four:hover h2,
+.mso-icon-four:hover h3,
+.mso-icon-four:hover h4,
+.mso-icon-four:hover h5,
+.mso-icon-four:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-four .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-four .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-four .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-four:hover .hi-icon:before {
+    -webkit-animation: toRightFromLeft 0.4s forwards;
+    -moz-animation: toRightFromLeft 0.4s forwards;
+    animation: toRightFromLeft 0.4s forwards;
+}
+.mso-icon-four .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-four .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-four:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-four:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Five Icon Setting */
+
+.mso-icon-five-space {
+    margin-bottom: 23px;
+}
+.mso-icon-five:hover h1,
+.mso-icon-five:hover h2,
+.mso-icon-five:hover h3,
+.mso-icon-five:hover h4,
+.mso-icon-five:hover h5,
+.mso-icon-five:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-five .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-five .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-five .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-five:hover .hi-icon:before {
+    -webkit-animation: toTopFromBottom 0.4s forwards;
+    -moz-animation: toTopFromBottom 0.4s forwards;
+    animation: toTopFromBottom 0.4s forwards;
+}
+.mso-icon-five .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-five .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-five:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-five:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Six Icon Setting */
+
+.mso-icon-six-space {
+    margin-bottom: 23px;
+}
+.mso-icon-six:hover h1,
+.mso-icon-six:hover h2,
+.mso-icon-six:hover h3,
+.mso-icon-six:hover h4,
+.mso-icon-six:hover h5,
+.mso-icon-six:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-six .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-six .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-six .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-six:hover .hi-icon:before {
+    -webkit-animation: toTopFromBottom 0.4s forwards;
+    -moz-animation: toTopFromBottom 0.4s forwards;
+    animation: toTopFromBottom 0.4s forwards;
+}
+.mso-icon-six .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-six .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-six:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-six:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+.mso-icon .hi-icon-two,
+.mso-icon-two .hi-icon-two,
+.mso-icon-three .hi-icon-two,
+.mso-icon-four .hi-icon-two,
+.mso-icon-five .hi-icon-two,
+.mso-icon-six .hi-icon-two {
+    padding-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+.modul-services-left .hi-icon-two {
+    padding-top: 0px;
+    width: 60px;
+    height: 60px;
+}
+/* Modul Seven Icon Setting */
+
+.mso-icon-seven-space h1 {
+    margin-bottom: 36px;
+}
+.mso-icon-seven:hover h1,
+.mso-icon-seven:hover h2,
+.mso-icon-seven:hover h3,
+.mso-icon-seven:hover h4,
+.mso-icon-seven:hover h5,
+.mso-icon-seven:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-seven .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 40px 0px 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-seven .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-seven .hi-icon:before {
+    speak: none;
+    line-height: 44px;
+    display: block;
+}
+.mso-icon-seven:hover .hi-icon:before {
+    -webkit-animation: toRightFromLeft 0.4s forwards;
+    -moz-animation: toRightFromLeft 0.4s forwards;
+    animation: toRightFromLeft 0.4s forwards;
+}
+.mso-icon-seven .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-seven .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-seven:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-seven:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.14);
+}
+.mso-icon-seven p {
+    margin-bottom: 4px;
+}
+.advert-button-seven {
+    margin-top: 18px;
+    margin-right: 10px;
+    min-width: 150px;
+}
+.advert-button-nine {
+    margin-top: 18px;
+    margin-right: 10px;
+    min-width: 150px;
+}
+.advert-button-ten {
+    margin-top: 18px;
+    min-width: 150px;
+}
+/* Modul Eight Icon Setting */
+
+.mso-icon-eight-space {
+    margin-bottom: 23px;
+}
+.mso-icon-eight:hover h1,
+.mso-icon-eight:hover h2,
+.mso-icon-eight:hover h3,
+.mso-icon-eight:hover h4,
+.mso-icon-eight:hover h5,
+.mso-icon-eight:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-eight .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-eight .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-eight .hi-icon:before {
+    speak: none;
+    line-height: 30px;
+    display: block;
+}
+.mso-icon-eight:hover .hi-icon:before {
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.mso-icon-eight .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-eight .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-eight:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-eight:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+/* Modul Nine Icon Setting */
+
+.mso-icon-nine {
+    border-bottom: 2px solid;
+    padding-bottom: 24px;
+    margin-bottom: 35px;
+}
+.mso-icon-nine:hover h1,
+.mso-icon-nine:hover h2,
+.mso-icon-nine:hover h3,
+.mso-icon-nine:hover h4,
+.mso-icon-nine:hover h5,
+.mso-icon-nine:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-nine .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 4px 30px 0px 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-nine .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-nine .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-nine:hover .hi-icon:before {
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.mso-icon-nine .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-nine .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-nine:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-nine:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+.mso-nine-img {
+    width: 80px;
+    height: 80px;
+}
+.mso-icon-nine h6 {
+    margin-bottom: 0px;
+}
+.mso-icon-nine p {
+    margin-top: 6px;
+}
+.mso-icon-nine small {
+    width: 100%;
+    font-style: italic;
+}
+.btn-mso-nine {
+    width: 26px;
+    height: 24px;
+    padding: 3px 0px 0px 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+/* Modul Ten Icon Setting */
+
+.mso-icon-ten-space {
+    margin-bottom: 23px;
+}
+.hi-icon h1 {
+    font-size: 220%;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.hi-icon h6 {
+    font-size: 100%;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mso-icon-ten:hover h1,
+.mso-icon-ten:hover h3,
+.mso-icon-ten:hover h4,
+.mso-icon-ten:hover h5,
+.mso-icon-ten:hover h6 {
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+}
+.mso-icon-ten .hi-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.mso-icon-ten .hi-icon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.mso-icon-ten .hi-icon:before {
+    speak: none;
+    line-height: 80px;
+    display: block;
+}
+.mso-icon-ten:hover .hi-icon:before {
+    -webkit-animation: toBottomFromTop 0.4s forwards;
+    -moz-animation: toBottomFromTop 0.4s forwards;
+    animation: toBottomFromTop 0.4s forwards;
+}
+.mso-icon-ten .hi-icon-effect-9 .hi-icon {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mso-icon-ten .hi-icon-effect-9 .hi-icon:after {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.07);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+.mso-icon-ten:hover .hi-icon-effect-9b .hi-icon:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+.mso-icon-ten:hover .hi-icon-effect-9b .hi-icon {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.14);
+}
+
+
+/* Modul Icon Effect */
+
+@-webkit-keyframes toBottomFromTop {
+    49% {
+        -webkit-transform: translateY(100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes toBottomFromTop {
+    49% {
+        -moz-transform: translateY(100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@keyframes toBottomFromTop {
+    49% {
+        transform: translateY(100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toRightFromLeft {
+    49% {
+        -webkit-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes toRightFromLeft {
+    49% {
+        -moz-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@keyframes toRightFromLeft {
+    49% {
+        transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toTopFromBottom {
+    49% {
+        -webkit-transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes toTopFromBottom {
+    49% {
+        -moz-transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@keyframes toTopFromBottom {
+    49% {
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes toLeftFromRight {
+    49% {
+        -webkit-transform: translate(-100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes toLeftFromRight {
+    49% {
+        -moz-transform: translate(-100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translate(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@keyframes toLeftFromRight {
+    49% {
+        transform: translate(-100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(100%);
+    }
+    51% {
+        opacity: 1;
+    }
 }

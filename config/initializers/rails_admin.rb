@@ -34,4 +34,13 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'Product' do
+    list do
+      field :name
+      field :category
+      field :price
+      field :picture
+    end
+  end
 end

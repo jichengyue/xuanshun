@@ -22,7 +22,7 @@
 							<p>
 								宣城市宣顺化工贸易有限公司位于安徽省宣城市区鳌峰办事处绿锦村绿锦铺，注册资金为10万人民币。
 							</p>
-							<p>经营范围包括：H20-化学危险品经营油漆及稀释剂。
+							<p>经营范围包括：油漆及稀释剂。
 							</p>
 
 						</div>
@@ -31,10 +31,10 @@
 						<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
 						<div class="carousel-caption">
 							<h4>
-								Second Thumbnail label
+								宣顺化工贸易有限公司
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							我们为客户提供最好的产品、良好的技术支持、 健全的售后服务
 							</p>
 						</div>
 					</div>
@@ -42,10 +42,10 @@
 						<%= link_to image_tag("index.jpg", alt: "宣顺化工贸易有限公司") %>
 						<div class="carousel-caption">
 							<h4>
-								Third Thumbnail label
+								宣顺化工贸易有限公司
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								我们为客户提供最好的产品、良好的技术支持、 健全的售后服务
 							</p>
 						</div>
 					</div>
@@ -72,85 +72,22 @@
 				<div class="panel-heading">
 					<h3 class="panel-title">公司位置</h3>
 				</div>
-				<div class="panel-body">
-					<!-- 以下是详细地图，地图上的红点为本公司在本市的位置 -->
-					<div style="width:700px;height:290px;border:1px solid gray" id="container"></div>
-					<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
-					<script type="text/javascript">
-							var opts = {
-									width: 250,     // 信息窗口宽度
-									height: 50,     // 信息窗口高度
-									title: "宣城市宣顺化工贸易有限公司"  // 信息窗口标题
-							}
-							//var infoWindow = new BMap.InfoWindow('深圳福田区福民路36号', opts);  // 创建信息窗口对象
-							var infoWindow = new BMap.InfoWindow('宣城市区鳌峰办事处绿锦村绿锦铺', opts);  // 创建信息窗口对象
-
-							var map = new BMap.Map("container");
-							var point = new BMap.Point(107.759131, 34.508242);
-							map.centerAndZoom(point, 5);
-							getpoint('宣城市区鳌峰办事处绿锦村绿锦铺', '');
-
-							map.enableScrollWheelZoom();                  //启用滚轮放大缩小。
-							map.enableDoubleClickZoom();				  //启用双击放大。
-							map.addControl(new BMap.NavigationControl());
-							function getpoint(addr, area) {
-									var myGeo = new BMap.Geocoder();
-									// 将地址解析结果显示在地图上，并调整地图视野
-									myGeo.getPoint(addr, function (point) {
-											if (point) {
-													map.centerAndZoom(point, 15);
-													var marker = new BMap.Marker(point);        // 创建标注
-													map.clearOverlays();
-													map.addOverlay(marker);
-													marker.openInfoWindow(infoWindow);      // 打开信息窗口
-													marker.addEventListener("dragend", function (e) {
-															this.openInfoWindow(infoWindow);
-															infoWindow.redraw();
-													})
-													marker.addEventListener("click", function (e) {
-															this.openInfoWindow(infoWindow);
-															infoWindow.redraw();
-													})
-											} else {
-													getpoint(area, area);
-											}
-									}, area);
-							}
-							function showinfo(zb) {
-									var mapobj = mapArray[zb];
-									var point = new BMap.Point(mapobj.x, mapobj.y);
-									map.centerAndZoom(point, 14);
-									var infoWindow = new BMap.InfoWindow(mapobj.newstext, opts);  // 创建信息窗口对象
-									var marker = new BMap.Marker(point);        // 创建标注
-									map.clearOverlays();
-									map.addOverlay(marker);
-									marker.openInfoWindow(infoWindow);      // 打开信息窗口
-									marker.addEventListener("dragend", function (e) {
-											this.openInfoWindow(infoWindow);
-											infoWindow.redraw();
-									})
-									marker.addEventListener("click", function (e) {
-											this.openInfoWindow(infoWindow);
-											infoWindow.redraw();
-									})
-							}
-					</script>
+				<div class="panel-body text-center">
+					<%= link_to image_tag("10.jpg", alt: "宣顺化工贸易有限公司") %>
 				</div>
 			</div>
-
 		</div>
 	</div>
-</div>
-<div class="row">
-	<div class="col-md-4">
-		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
+	<div class="row">
+		<div class="col-md-4 text-center">
+			<%= link_to image_tag("4.jpg", alt: "宣顺化工贸易有限公司",width:200,height:200) %>
+		</div>
+		<div class="col-md-4 text-center">
+			<%= link_to image_tag("5.jpg", alt: "宣顺化工贸易有限公司",width:200,height:200) %>
+		</div>
+		<div class="col-md-4 text-center">
+			<%= link_to image_tag("6.jpg", alt: "宣顺化工贸易有限公司",width:200,height:200) %>
+		</div>
 	</div>
-	<div class="col-md-4">
-		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
-	</div>
-	<div class="col-md-4">
-		<%= link_to image_tag("product.jpg", alt: "宣顺化工贸易有限公司") %>
-	</div>
-</div>
 </div>
 <%= render "shared/footer"  %>
