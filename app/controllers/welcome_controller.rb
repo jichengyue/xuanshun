@@ -10,6 +10,7 @@ class WelcomeController < ApplicationController
   end
   #产品展示
   def products_show
+    @products = Product.all
   end
   #公司资质或者公司荣誉
   def company_honor

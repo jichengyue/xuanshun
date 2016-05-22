@@ -29,7 +29,7 @@ RailsAdmin.config do |config|
     edit
     delete
     show_in_app
-
+    grid
     ## With an audit adapter, you can add:
     # history_index
     # history_show
@@ -40,7 +40,14 @@ RailsAdmin.config do |config|
       field :name
       field :category
       field :price
-      field :picture
+      # field :picture
+    end
+
+    grid do
+      thumbnail_method do
+        field :name
+        :thumb
+      end
     end
   end
 end

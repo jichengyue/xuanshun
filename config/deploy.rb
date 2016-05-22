@@ -74,11 +74,12 @@ task :deploy => :environment do
   deploy do
     # Put things that will set up an empty directory into a fully set-up
     # instance of your project.
+    #以下两条命令视情况在命令行里面执行
+    # mina rake[db:migrate]
+    # mina rake[db:seed]
     invoke :'git:clone'
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
-    invoke :'rails:db_migrate'
-    invoke :'rake[db:seed]'
     invoke :'rails:assets_precompile'
     invoke :'deploy:cleanup'
 

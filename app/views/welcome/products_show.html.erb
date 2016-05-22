@@ -1,4 +1,42 @@
 <%= render "shared/header" %>
 <%= render "shared/nav"  %>
+<div id="list" style="margin-top:10%;margin-bottom:10%;">
+
+<form id="bulk_form" class="form" action="/admin/product/bulk_action" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="l2siWJwPSbmwFoQQasD9RnUJZONY+bywLfWWSA8gt/S5Nqb6JyAPzSwWgCpzuMBLxvs08i3uMspUFmBO17YpEQ==">
+    <input type="hidden" name="bulk_action" id="bulk_action">
+    <div class="container-fluid">
+        <div class="row">
+          <% @products.each  do | p|  %>
+            <div class="col-md-3 product_row">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div style="height: 200px;">
+                            <img alt="View Product" class="img-responsive center-block center-vert" src="<%= p.picture %>" style="max-height: 100%;">
+                        </div>
+                        <br>
+                    </div>
+                    <div class="panel-footer">
+                        <p class="name_field string_type" title="<%= p.name %>">
+                            <strong>名称:</strong>
+                            <%= p.name %>
+                        </p>
+                        <p class="category_field string_type" title="<%= p.category %>">
+                            <strong>类别:</strong>
+                            <%= p.category %>
+                        </p>
+                        <p class="price_field float_type" title="<%= p.price %>">
+                            <strong>价格:</strong>
+                            <%= p.price %>
+                        </p>
+                        <div class="list-inline text-center"></div>
+                    </div>
+                </div>
+            </div>
+            <% end  %>
+        </div>
+    </div>
+</form>
+
+</div>
 
 <%= render "shared/footer"  %>
